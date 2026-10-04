@@ -1,0 +1,6 @@
+{
+  "name": "Pernikahan Ilham & Nisa' - Adat Jawa Elegan",
+  "description": "Undangan pernikahan digital eksklusif bertemakan Adat Jawa untuk Ilham Pratama & Sholikhatun Nisa'. Dilengkapi musik adat/custom, galeri foto, buku tamu, countdown, dan amplop digital.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
