@@ -17,6 +17,9 @@ export const Navbar: React.FC = () => {
         <a href="#acara" className="hover:text-[#F3E5AB] transition-colors">
           Acara
         </a>
+        <a href="#album" className="hover:text-[#F3E5AB] transition-colors">
+          Album Foto
+        </a>
         <a href="#lokasi" className="hover:text-[#F3E5AB] transition-colors">
           Lokasi
         </a>

@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import {
+  INITIAL_ALBUM_PHOTOS,
   INITIAL_BANK_ACCOUNTS,
   INITIAL_BRIDE,
   INITIAL_EVENTS,
@@ -22,6 +23,7 @@ import { HeroSection } from './components/HeroSection';
 import { SurahSection } from './components/SurahSection';
 import { BrideGroomSection } from './components/BrideGroomSection';
 import { EventScheduleSection } from './components/EventScheduleSection';
+import { AlbumSection } from './components/AlbumSection';
 import { LocationBarcodeSection } from './components/LocationBarcodeSection';
 import { DigitalEnvelopeSection } from './components/DigitalEnvelopeSection';
 import { FooterSection } from './components/FooterSection';
@@ -216,7 +218,10 @@ export default function App() {
       {/* 6. Waktu & Papan Pahargyan (Akad & Resepsi) */}
       <EventScheduleSection events={INITIAL_EVENTS} />
 
-      {/* 7. Peta Lokasi & Barcode Presensi (Pengganti Buku Tamu) */}
+      {/* 7. Album Foto (Koleksi Potret Kenangan & Prewedding) */}
+      <AlbumSection photos={INITIAL_ALBUM_PHOTOS} />
+
+      {/* 8. Peta Lokasi & Barcode Presensi (Pengganti Buku Tamu) */}
       <LocationBarcodeSection guestName={guestName} events={INITIAL_EVENTS} />
 
       {/* 10. Tandha Asih / Amplop Digital & QRIS */}

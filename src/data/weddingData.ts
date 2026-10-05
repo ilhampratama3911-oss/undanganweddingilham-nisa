@@ -2,6 +2,14 @@ import { BankAccount, CoupleMember, GalleryItem, LoveStoryMilestone, WeddingEven
 import groomRealPhoto from '../assets/images/groom_ilham_real.jpeg';
 import brideRealPhoto from '../assets/images/bride_nisa_halfbody_new.jpeg';
 import coupleHeroPhoto from '../assets/images/couple_berdua_real.jpeg';
+import jogloPhoto from '../assets/images/joglo_prewedding_scenery_1791014225465.jpg';
+import couplePhotoAlt from '../assets/images/wedding_couple_hero_1791014169874.jpg';
+import brideFullPhoto from '../assets/images/bride_nisa_new_drive.jpeg';
+import albumFoto1 from '../assets/images/album_foto_1.jpeg';
+import albumFoto2 from '../assets/images/album_foto_2.jpeg';
+import albumFoto3 from '../assets/images/album_foto_3.jpeg';
+import albumFoto4 from '../assets/images/album_foto_4.jpeg';
+import albumFoto5 from '../assets/images/album_foto_5.jpeg';
 
 export const INITIAL_GROOM: CoupleMember = {
   fullName: 'Ilham Pratama',
@@ -86,32 +94,40 @@ export const INITIAL_LOVE_STORIES: LoveStoryMilestone[] = [
   },
 ];
 
-export const INITIAL_GALLERY: GalleryItem[] = [
+export const INITIAL_ALBUM_PHOTOS: GalleryItem[] = [
   {
-    id: 'g1',
-    url: coupleHeroPhoto,
-    title: 'Pesona Penganten Ageng',
-    description: 'Ilham & Nisa dalam balutan busana beludru hitam berbordir benang emas dan ronce kembang melati.',
+    id: 'alb-1',
+    url: albumFoto1,
+    title: 'Kidung Katresnan Suci',
+    description: 'Ilham & Nisa dalam balutan busana ageng adat Jawa penuh keanggunan, memancarkan harmoni cinta yang tulus.',
   },
   {
-    id: 'g2',
-    url: '/src/assets/images/joglo_prewedding_scenery_1791014225465.jpg',
-    title: 'Langkah Bersama di Pendopo Joglo',
-    description: 'Momen kebersamaan di pelataran joglo jati kuno dengan kain jarik batik parang kusumo.',
+    id: 'alb-2',
+    url: albumFoto2,
+    title: 'Romantisme Lembaran Kisah',
+    description: 'Sorot tatap mata penuh ketulusan, mengikat janji saling setia mendampingi dalam suka maupun duka.',
   },
   {
-    id: 'g3',
-    url: groomRealPhoto,
-    title: 'Sang Penganten Kakung',
-    description: 'Keteguhan dan ketulusan hati Mas Ilham Pratama menjelang hari bahagia.',
+    id: 'alb-3',
+    url: albumFoto3,
+    title: 'Kehangatan Dua Hati',
+    description: 'Langkah beriringan menyongsong bahtera rumah tangga yang sakinah, mawaddah, warahmah.',
   },
   {
-    id: 'g4',
-    url: brideRealPhoto,
-    title: 'Sang Penganten Putri',
-    description: 'Kelembutan senyum dan keanggunan Mbak Sholikhatun Nisa bersiap mengikat janji suci.',
+    id: 'alb-4',
+    url: albumFoto4,
+    title: 'Pesona Putri Sekar Jagad',
+    description: "Keanggunan Mbak Sholikhatun Nisa' memancarkan aura ketenangan dan keteduhan budi pekerti tanah Jawa.",
+  },
+  {
+    id: 'alb-5',
+    url: albumFoto5,
+    title: 'Sang Satria Piningit',
+    description: 'Keteguhan Mas Ilham Pratama bersiap menjadi imam dan pelindung keluarga dengan segenap jiwa raga.',
   },
 ];
+
+export const INITIAL_GALLERY: GalleryItem[] = INITIAL_ALBUM_PHOTOS;
 
 export const INITIAL_BANK_ACCOUNTS: BankAccount[] = [
   {
