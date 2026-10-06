@@ -30,7 +30,7 @@ export const LocationBarcodeSection: React.FC<LocationBarcodeSectionProps> = ({
     dayName: 'Rabu Legi',
     weton: 'Legi (Neptu 12)',
     dateString: '04 November 2026',
-    timeString: 'Pukul 10:00 WIB',
+    timeString: 'Pukul 10:00 WIB - Selesai',
     venueName: 'Kediaman Mempelai Wanita',
     hallName: 'Dk. Satak Desa Klakahkasihan',
     address: 'Dk. Satak Desa Klakahkasihan RT:002/RW:006, Kec. Gembong, Kab. Pati',
