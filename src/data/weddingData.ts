@@ -54,7 +54,7 @@ export const INITIAL_EVENTS: WeddingEvent[] = [
     hallName: 'Balai Nikah KUA Kec. Gembong',
     address: 'Jl. Raya Pati - Gembong, Kec. Gembong, Kabupaten Pati, Jawa Tengah 59162',
     mapsUrl: 'https://maps.google.com/?q=KUA+Kecamatan+Gembong+Pati',
-    notes: 'Keluarga dan para tamu diharapkan hadir 15 menit sebelum prosesi ijab qobul dimulai.',
+    notes: 'Keluarga inti diharapkan hadir 15 menit sebelum prosesi ijab qobul dimulai.',
   },
   {
     id: 'resepsi',
